@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 50px white inset; /* Change the color to your own background color */
+  -webkit-text-fill-color: #7d7f7c;
+}
+input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0 50px white inset;
+  -webkit-text-fill-color: #7d7f7c;
+}
+.paper-effect {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2), 0 7px 0 -3px #f6f6f6, 0 8px 1px -3px rgba(0, 0, 0, 0.2), 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+.button-effect {
+  box-shadow: 0 1px 1px rgba(34, 216, 128, 0.5), 0 7px 0 -3px #1fcb78, 0 8px 1px -3px rgba(25, 153, 91, 0.2), 0 9px 5px -6px #20bf72, 0 10px 8px rgba(25, 153, 91, 0.2), 0 10px 20px rgba(19, 208, 117, 0.5);
+}
